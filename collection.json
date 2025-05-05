@@ -1,0 +1,25 @@
+{
+  "name": "Sample API Collection",
+  "requests": [
+    {
+      "name": "Get Users",
+      "method": "GET",
+      "url": "https://api.example.com/users",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "",
+      "description": "Get all users from the API"
+    },
+    {
+      "name": "Create User",
+      "method": "POST",
+      "url": "https://api.example.com/users",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\"\n}",
+      "description": "Create a new user"
+    }
+  ]
+} 
